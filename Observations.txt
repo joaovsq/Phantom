@@ -1,0 +1,13 @@
+- Phantom itself have only two servers, one which can accept and create multiple client connections. The other is a grpc server to work as an API (available to frontends).
+- Phantom can have multiple active clients.
+
+
+Phantom server definition.
+
+- Uses a custom protocol
+
+Phantom API server definition.
+
+- Uses GRPC
+- Actions:
+	- Get messages.
